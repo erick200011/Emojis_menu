@@ -61,6 +61,8 @@ public class Figuras extends JPanel {
                     break;
                 case 10:
                     //emoji secreto erick
+                    // Ya me dio miedo XDD
+                    
                     break;
 
 
