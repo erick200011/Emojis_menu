@@ -34,7 +34,34 @@ public class Figuras extends JPanel {
                     g.drawLine(770,0,1000,250);
                     g.drawLine(1000,250,770,250);
                     g.drawLine(770,250,1000,500);
-
+                    break;
+                case 2:
+                  //Erick
+                    break;
+                case 3:
+                    //Erick
+                    break;
+                case 4:
+                    //Kevin
+                    break;
+                case 5:
+                    //Kevin
+                    break;
+                case 6:
+                    //Kevin
+                    break;
+                case 7:
+                    //Martin
+                    break;
+                case 8:
+                    //Martin
+                    break;
+                case 9:
+                    //Martin
+                    break;
+                case 10:
+                    //emoji secreto erick
+                    break;
 
 
 

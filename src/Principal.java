@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Principal {
     public static void main(String[] args) {
-        String entrada = JOptionPane.showInputDialog("Escriba 1 para sus iniciales 'M, R'\n  "+ "Escriba 2 para dibujar ovalos");
+        String entrada = JOptionPane.showInputDialog("1\n"+"2\n"+"3\n"+"4\n"+"5\n"+"6\n"+"7\n"+"8\n"+"9\n");
         int opcion=Integer.parseInt(entrada);
 
         Figuras panel =new Figuras (opcion);
