@@ -141,6 +141,26 @@ public class Figuras extends JPanel {
                     break;
                 case 12:
                     //Kevin
+
+                    //Cara
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(0,50,700,700);
+
+                    //Ojos
+                    g.setColor(Color.BLACK);
+                    g.fillOval(200,200,50,90);
+
+                    g.setColor(Color.BLACK);
+                    g.fillOval(450,200,50,90);
+
+                    //cejas
+
+                    g.drawLine(250,100,100,250);
+                    g.drawLine(450,100,600,250);
+
+
+                    //Boca
+                    g.fillOval(350,400,50,100);
                     break;
                 case 13:
                     //emoji secreto erick
