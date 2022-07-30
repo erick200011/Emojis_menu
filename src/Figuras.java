@@ -71,9 +71,37 @@ public class Figuras extends JPanel {
                     break;
                 case 5:
                     //Kevin
+
+                    //Cara
+
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(0,50,700,700);
+
+                    //Ojos
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(170,200,100,100);
+
+                    g.setColor(Color.BLACK);
+                    g.fillOval(200,200,50,90);
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(430,200,100,100);
+
+                    g.setColor(Color.BLACK);
+                    g.fillOval(450,200,50,90);
+
+
+                    //Boca
+                    g.drawLine(175,450,200,500);
+                    g.drawLine(200,500,350,450);
+                    g.drawLine(350,450,500,500);
+                    g.drawLine(500,500,525,450);
                     break;
                 case 6:
                     //Kevin
+
+
                     break;
                 case 7:
                     //Martin
