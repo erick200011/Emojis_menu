@@ -10,7 +10,7 @@ public class Principal {
 
         aplicacion.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         aplicacion.add(panel);
-        aplicacion.setSize(300,300);
+        aplicacion.setSize(1280,720);
         aplicacion.setVisible(true);
 
     }
