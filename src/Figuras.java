@@ -60,6 +60,15 @@ public class Figuras extends JPanel {
                     //Martin
                     break;
                 case 10:
+                    //erick
+                    break;
+                case 11:
+                    //Martin
+                    break;
+                case 12:
+                    //Kevin
+                    break;
+                case 13:
                     //emoji secreto erick
                     // Ya me dio miedo XDD
 
