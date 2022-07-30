@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.Graphics;
+import java.awt.*;
 import javax.swing.JPanel;
 
 
@@ -43,6 +43,31 @@ public class Figuras extends JPanel {
                     break;
                 case 4:
                     //Kevin
+
+                    //Cara
+
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(0,50,700,700);
+
+                    //Ojos
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(170,200,100,100);
+
+                    g.setColor(Color.BLACK);
+                    g.fillOval(170,200,50,90);
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(370,200,100,100);
+
+                    g.setColor(Color.BLACK);
+                    g.fillOval(370,200,50,90);
+
+
+                    //Boca
+
+                    g.fillRect(300,500,100,5);
+
                     break;
                 case 5:
                     //Kevin
