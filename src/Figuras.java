@@ -17,29 +17,67 @@ public class Figuras extends JPanel {
 
             switch(opcion){
                 case 1:
-                    g.drawLine(300,500,300,0);
-                    g.drawLine(320,500,320,0);
+                    //Cara
 
-                    g.drawLine(320,0,500,250);
-                    g.drawLine(500,250,680,0);
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(10,10,200,200);
 
-                    g.drawLine(680,500,680,0);
-                    g.drawLine(700,500,700,0);
+                    //Ojos
 
-                    //---------------------------------------//
+                    g.setColor(Color.WHITE);
+                    g.fillOval(55,65,60,60);
+                    g.fillOval(135,65,60,60);
+                    g.setColor(Color.BLACK);
+                    g.fillOval(55,65,30,30);
+                    g.fillOval(135,65,30,30);
+                    //Boca
+                    g.setColor(Color.black);
+                    g.fillOval(50,120,120,60);
+                    //sorisa
+                    g.setColor(Color.YELLOW);
 
-                    g.drawLine(750,0,750,500);
-                    g.drawLine(770,0,770,500);
+                    g.fillOval(50,120,120,40);
 
-                    g.drawLine(770,0,1000,250);
-                    g.drawLine(1000,250,770,250);
-                    g.drawLine(770,250,1000,500);
                     break;
                 case 2:
                   //Erick
+
+                    //Cara
+
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(10,10,200,200);
+
+                    //Ojos
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(45,120,60,60);
+                    g.fillOval(120,120,60,60);
+                    g.setColor(Color.BLACK);
+                    g.fillOval(55,130,30,30);
+                    g.fillOval(135,130,30,30);
+                    //Boca
+                    g.setColor(Color.black);
+                    g.fillOval(55,65,120,60);
+                    //sorisa
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(40,25,120,30);
+                    g.fillOval(56,80,120,47);
                     break;
                 case 3:
                     //Erick
+
+                    //Cara
+
+                    g.setColor(Color.YELLOW);
+                    g.fillOval(10,10,200,200);
+
+                    //Ojos
+                     g.setColor(Color.black);
+                     g.fillRect(45,65,50,20);
+                    g.fillRect(130,65,50,20);
+                    //Boca
+                    g.setColor(Color.black);
+                    g.fillRect(50,130,120,20);
                     break;
                 case 4:
                     //Kevin
@@ -168,6 +206,31 @@ public class Figuras extends JPanel {
 
                 case 10:
                     //erick
+                    //Cara
+
+                    g.setColor(Color.GREEN);
+                    g.fillOval(10,10,200,200);
+
+                    //Ojos
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(30,65,60,60);
+                    g.fillOval(135,65,60,60);
+                    g.setColor(Color.BLACK);
+                    g.fillOval(45,80,30,30);
+                    g.fillOval(145,80,30,30);
+                    //Boca
+                    g.setColor(Color.black);
+                    g.fillOval(50,135,120,60);
+                    //sorisa
+                    g.setColor(Color.GREEN);
+                    g.fillOval(50,155,120,40);
+
+                    //cejas
+                    g.setColor(Color.black);
+                    g.fillOval(20,50,70,15);
+                    g.fillOval(130,50,70,15);
+
                     break;
                 case 11:
                     g.setColor(Color.yellow);
@@ -210,6 +273,19 @@ public class Figuras extends JPanel {
                     //emoji secreto erick
                     // Ya me dio miedo XDD
                     //xD
+                    //Cara
+
+                    g.setColor(Color.RED);
+                    g.fillOval(10,10,200,200);
+
+                    //Ojos
+
+                    g.setColor(Color.WHITE);
+                    g.fillOval(30,65,60,60);
+                    g.fillOval(135,65,60,60);
+                    g.setColor(Color.BLACK);
+                    g.fillOval(55,65,30,30);
+                    g.fillOval(135,65,30,30);
 
                     break;
 
